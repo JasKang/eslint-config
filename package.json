@@ -11,9 +11,9 @@
   "main": "index.js",
   "exports": {
     ".": "./index.js",
-    "vue": "./vue.js",
-    "miniapp": "./miniapp.js",
-    "prettier": "./prettier.js"
+    "./vue": "./vue.js",
+    "./miniapp": "./miniapp.js",
+    "./prettier": "./prettier.js"
   },
   "scripts": {
     "release": "release-it"
