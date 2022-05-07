@@ -56,6 +56,8 @@ module.exports = {
     'no-case-declarations': 0, // 允许 case 块中声明变量
     'no-console': 0, // 允许 log
     'no-empty-function': 0, // 允许定义空方法
+    '@typescript-eslint/no-empty-function': 0,
+
     // import
     'import/named': 0,
     'import/namespace': 0,
@@ -78,7 +80,6 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 0,
     '@typescript-eslint/ban-ts-comment': 0,
     '@typescript-eslint/ban-types': 0,
-
     '@typescript-eslint/no-this-alias': [
       'error',
       {
