@@ -78,5 +78,13 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 0,
     '@typescript-eslint/ban-ts-comment': 0,
     '@typescript-eslint/ban-types': 0,
+
+    '@typescript-eslint/no-this-alias': [
+      'error',
+      {
+        allowDestructuring: false, // Disallow `const { props, state } = this`; true by default
+        allowedNames: ['self', 'ctx'], // Allow `const self = this`; `[]` by default
+      },
+    ],
   },
 }
