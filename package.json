@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-jaskang",
+  "version": "0.0.28",
+  "description": "前端工具包",
+  "repository": "git@github.com:JasKang/eslint-config.git",
+  "author": "jaskang <jaskang@qq.cn>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "vue": "./vue.js",
+    "miniapp": "./miniapp.js",
+    "prettier": "./prettier.js"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-n": "^15.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^8.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.6.4"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "prettier": ">=2.0.0",
+    "typescript": ">=4.0.0"
+  }
+}
