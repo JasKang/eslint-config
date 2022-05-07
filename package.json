@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jaskang",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "前端工具包",
   "repository": "git@github.com:JasKang/eslint-config.git",
   "author": "jaskang <jaskang@qq.cn>",
