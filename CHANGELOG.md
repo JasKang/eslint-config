@@ -1,5 +1,12 @@
 
 
+## [0.1.1](https://github.com/JasKang/eslint-config/compare/0.1.0...0.1.1) (2022-05-07)
+
+
+### Bug Fixes
+
+* exports path ([857d8db](https://github.com/JasKang/eslint-config/commit/857d8dbaf85fbc191143452b100eeec856c859e9))
+
 # 0.1.0 (2022-05-07)
 
 
