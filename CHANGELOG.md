@@ -1,5 +1,12 @@
 
 
+## [0.1.2](https://github.com/JasKang/eslint-config/compare/0.1.1...0.1.2) (2022-05-07)
+
+
+### Bug Fixes
+
+* add no-this-alias ([05b863f](https://github.com/JasKang/eslint-config/commit/05b863f72715e751c8fa3fbca52eeb53493d2558))
+
 ## [0.1.1](https://github.com/JasKang/eslint-config/compare/0.1.0...0.1.1) (2022-05-07)
 
 
